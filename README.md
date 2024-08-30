@@ -35,10 +35,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
 <li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Registro de Testes Unitários.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Integração.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Registro de Testes de Sistema.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Contribuição.md"> Registro de Testes de Usabilidade</a></li>
+<li><a href="docs/08-Registro de Testes Unitários.md"> Registro de Testes Unitários</a></li>
+<li><a href="docs/09-Registro de Testes de Integração.md"> Registro de Testes de Integração</a></li>
+<li><a href="docs/10-Registro de Testes de Sistema.md"> Registro de Testes de Sistema</a></li>
+<li><a href="docs/11-Registro de Contribuição.md"> Registro de Contribuição</a></li>
 <li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
