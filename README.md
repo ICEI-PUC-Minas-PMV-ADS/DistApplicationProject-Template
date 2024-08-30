@@ -14,6 +14,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Nome completo do aluno 2
 * Nome completo do aluno 3
 * Nome completo do aluno 4
+* Nome completo do aluno 5
+* Nome completo do aluno 6
 
 ## Orientador
 
@@ -33,10 +35,10 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
 <li><a href="docs/06-Template Padrão da Aplicação.md"> Template Padrão da Aplicação</a></li>
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
-<li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
-<li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
-<li><a href="docs/10-Plano de Testes de Usabilidade.md"> Plano de Testes de Usabilidade</a></li>
-<li><a href="docs/11-Registro de Testes de Usabilidade.md"> Registro de Testes de Usabilidade</a></li>
+<li><a href="docs/08-Registro de Testes Unitários.md"> Plano de Testes de Software</a></li>
+<li><a href="docs/09-Registro de Testes de Integração.md"> Registro de Testes de Software</a></li>
+<li><a href="docs/10-Registro de Testes de Sistema.md"> Plano de Testes de Usabilidade</a></li>
+<li><a href="docs/11-Registro de Contribuição.md"> Registro de Testes de Usabilidade</a></li>
 <li><a href="docs/12-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
