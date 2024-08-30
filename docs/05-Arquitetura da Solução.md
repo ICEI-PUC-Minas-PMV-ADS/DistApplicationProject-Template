@@ -38,13 +38,13 @@ Estrutura do Documento
 ```
 
 #### Descrição dos Campos
-<strong>_id:</strong> Identificador único do usuário gerado automaticamente pelo MongoDB.
-<strong>name:</strong> Nome completo do usuário.
-<strong>email:</strong> Endereço de email do usuário.
-<strong>passwordHash:</strong> Hash da senha do usuário.
-<strong>roles:</strong> Lista de papéis atribuídos ao usuário (por exemplo, admin, user).
-<strong>createdAt:</strong> Data e hora de criação do usuário.
-<strong>updatedAt:</strong> Data e hora da última atualização dos dados do usuário.
+> - <strong>_id:</strong> Identificador único do usuário gerado automaticamente pelo MongoDB.
+> - <strong>name:</strong> Nome completo do usuário.
+> - <strong>email:</strong> Endereço de email do usuário.
+> - <strong>passwordHash:</strong> Hash da senha do usuário.
+> - <strong>roles:</strong> Lista de papéis atribuídos ao usuário (por exemplo, admin, user).
+> - <strong>createdAt:</strong> Data e hora de criação do usuário.
+> - <strong>updatedAt:</strong> Data e hora da última atualização dos dados do usuário.
 
 ### Coleção: products
 Armazena as informações dos produtos disponíveis no sistema.
@@ -63,13 +63,13 @@ Armazena as informações dos produtos disponíveis no sistema.
 ```
 
 #### Descrição dos Campos
-<strong>_id:</strong> Identificador único do usuário gerado automaticamente pelo MongoDB.
-<strong>name:</strong> Nome completo do usuário.
-<strong>email:</strong> Endereço de email do usuário.
-<strong>passwordHash:</strong> Hash da senha do usuário.
-<strong>roles:</strong> Lista de papéis atribuídos ao usuário (por exemplo, admin, user).
-<strong>createdAt:</strong> Data e hora de criação do usuário.
-<strong>updatedAt:</strong> Data e hora da última atualização dos dados do usuário.
+> - <strong>_id:</strong> Identificador único do usuário gerado automaticamente pelo MongoDB.
+> - <strong>name:</strong> Nome completo do usuário.
+> - <strong>email:</strong> Endereço de email do usuário.
+> - <strong>passwordHash:</strong> Hash da senha do usuário.
+> - <strong>roles:</strong> Lista de papéis atribuídos ao usuário (por exemplo, admin, user).
+> - <strong>createdAt:</strong> Data e hora de criação do usuário.
+> - <strong>updatedAt:</strong> Data e hora da última atualização dos dados do usuário.
 
 ### Coleção: products
 Armazena as informações dos produtos disponíveis no sistema.
@@ -90,14 +90,14 @@ Estrutura do Documento
 ```
 
 #### Descrição dos Campos
-<strong>_id:</strong> Identificador único do produto gerado automaticamente pelo MongoDB.
-<strong>name:</strong> Nome do produto.
-<strong>description:</strong> Descrição detalhada do produto.
-<strong>price:</strong> Preço do produto.
-<strong>category:</strong> Categoria à qual o produto pertence.
-<strong>stock:</strong> Quantidade de produtos em estoque.
-<strong>createdAt:</strong> Data e hora de criação do produto.
-<strong>updatedAt:</strong> Data e hora da última atualização dos dados do produto.
+> - <strong>_id:</strong> Identificador único do produto gerado automaticamente pelo MongoDB.
+> - <strong>name:</strong> Nome do produto.
+> - <strong>description:</strong> Descrição detalhada do produto.
+> - <strong>price:</strong> Preço do produto.
+> - <strong>category:</strong> Categoria à qual o produto pertence.
+> - <strong>stock:</strong> Quantidade de produtos em estoque.
+> - <strong>createdAt:</strong> Data e hora de criação do produto.
+> - <strong>updatedAt:</strong> Data e hora da última atualização dos dados do produto.
 
 ### Coleção: orders
 Armazena as informações dos pedidos feitos pelos usuários.
@@ -123,20 +123,23 @@ Estrutura do Documento
 ```
 
 #### Descrição dos Campos
-<strong>_id:</strong> Identificador único do pedido gerado automaticamente pelo MongoDB.
-<strong>userId:</strong> Referência ao identificador do usuário que fez o pedido.
-<strong>products:</strong> Lista de produtos incluídos no pedido, cada um com:
-<strong>productId:</strong> Identificador do produto.
-<strong>quantity:</strong> Quantidade do produto pedido.
-<strong>price:</strong> Preço unitário do produto no momento do pedido.
-<strong>totalPrice:</strong> Preço total do pedido (soma de todos os itens).
-<strong>status:</strong> Status atual do pedido (por exemplo, pending, shipped, delivered).
-<strong>createdAt:</strong> Data e hora de criação do pedido.
-<strong>updatedAt:</strong> Data e hora da última atualização dos dados do pedido.
+> - <strong>_id:</strong> Identificador único do pedido gerado automaticamente pelo MongoDB.
+> - <strong>userId:</strong> Referência ao identificador do usuário que fez o pedido.
+> - <strong>products:</strong> Lista de produtos incluídos no pedido, cada um com:
+> - <strong>productId:</strong> Identificador do produto.
+> - <strong>quantity:</strong> Quantidade do produto pedido.
+> - <strong>price:</strong> Preço unitário do produto no momento do pedido.
+> - <strong>totalPrice:</strong> Preço total do pedido (soma de todos os itens).
+> - <strong>status:</strong> Status atual do pedido (por exemplo, pending, shipped, delivered).
+> - <strong>createdAt:</strong> Data e hora de criação do pedido.
+> - <strong>updatedAt:</strong> Data e hora da última atualização dos dados do pedido.
 
 ### Boas Práticas
+
 Validação de Dados: Implementar validação de esquema e restrições na aplicação para garantir a consistência dos dados.
+
 Monitoramento e Logs: Utilize ferramentas de monitoramento e logging para acompanhar a saúde do banco de dados e diagnosticar problemas.
+
 Escalabilidade: Considere estratégias de sharding e replicação para lidar com crescimento do banco de dados e alta disponibilidade.
 
 ### Material de Apoio da Etapa
