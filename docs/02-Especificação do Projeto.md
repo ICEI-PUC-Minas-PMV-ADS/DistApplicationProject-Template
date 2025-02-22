@@ -44,13 +44,14 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
-<strong>Crie no mínimo 12 Requisitos funcionais, 6 não funcionais e 3 restrições</strong
+<strong>Crie no mínimo 12 Requisitos funcionais, 6 não funcionais e 3 restrições</strong>
+<strong>Cada aluno será responsável pela execução completa (back, web e mobile) de pelo menos 2 requisitos que será acompanhado pelo professor</strong>
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito  | Prioridade | Responsável |
+|------|-----------------------------------------|----|----|
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA | Pedro |
+|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA | João |
 
 ### Requisitos não Funcionais
 
