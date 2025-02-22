@@ -1,6 +1,6 @@
 # Documentação do Projeto de Trabalho em Equipe
 
-Este é um exemplo de documento para a documentação das etapas e contribuição de cada membro. É importante salientar que todos os membros devem participar ativamente em todas as etapas e, nas etapas de desenvolvimento é impressindível que todos tenham atividades de desenvolvimento.
+Este é um exemplo de documento para a documentação das etapas e contribuição de cada membro. É importante salientar que todos os membros devem participar ativamente em todas as etapas e, nas etapas de desenvolvimento é impressindível que todos tenham atividades de desenvolvimento. <strong>Este arquivo deve refletir a execução das tarefas de cada aluno por etapa e estar em consonância com as ferramentas de gestão de tempo utilizadas pelo grupo, contando principalmente o tempo de início e termino de cada tarefa.</strong>
 
 ## Visão Geral
 
